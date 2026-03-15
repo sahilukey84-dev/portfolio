@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zen Spa | Relax & Rejuvenate</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<div class="topbar">
+<div class="container">
+<p>Luxury Wellness Experience</p>
+<a href="#callback">Request Callback</a>
+</div>
+</div>
+
+<header class="header">
+<div class="container nav">
+<h2 class="logo">Zen Spa</h2>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#treatments">Services</a></li>
+<li><a href="#booking">Book Spa</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</div>
+</header>
+
+<section class="hero">
+<div class="hero-content">
+<h1>Relax. Refresh. Rejuvenate.</h1>
+<p>
+Zen Spa is a premium wellness spa offering relaxing massages,
+skincare, and holistic therapies designed to restore your mind
+and body.
+</p>
+<a href="#booking" class="btn">Book Appointment</a>
+</div>
+</section>
+
+<section class="services">
+<h2>Our Spa Services</h2>
+<div class="service-grid">
+<div class="service-card">
+<i class="fa-solid fa-spa"></i>
+<h3>Massage Therapy</h3>
+<p>Relaxing body massages to release tension.</p>
+</div>
+<div class="service-card">
+<i class="fa-solid fa-leaf"></i>
+<h3>Holistic Care</h3>
+<p>Natural treatments for body and mind balance.</p>
+</div>
+<div class="service-card">
+<i class="fa-solid fa-face-smile"></i>
+<h3>Facial Therapy</h3>
+<p>Professional skin treatments for glowing skin.</p>
+</div>
+</div>
+</section>
+
+<section id="treatments" class="treatments">
+<h2>Popular Massage Treatments</h2>
+<div class="treatment-grid">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=60">
+<h3>Swedish Massage</h3>
+<p>Relaxing massage improving circulation.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=800&q=60">
+<h3>Deep Tissue Massage</h3>
+<p>Targets deeper muscle tension.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=60">
+<h3>Hot Stone Massage</h3>
+<p>Warm stones relax tight muscles.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=800&q=60">
+<h3>Aromatherapy Massage</h3>
+<p>Essential oils calm the body and mind.</p>
+</div>
+
+<div class="card">
+<img src="https://images.pexels.com/photos/5266479/pexels-photo-5266479.jpeg?auto=compress&cs=tinysrgb&w=800">
+<h3>Thai Massage</h3>
+<p>Traditional stretching massage therapy that improves flexibility and relieves muscle tension.</p>
+</div>
+
+<div class="card">
+<img src="https://images.pexels.com/photos/3997983/pexels-photo-3997983.jpeg?auto=compress&cs=tinysrgb&w=800">
+<h3>Reflexology</h3>
+<p>Pressure point therapy focused on the feet to improve circulation and restore body balance.</p>
+</div>
+
+</div>
+</section>
+
+<section id="booking" class="booking">
+<h2>Book Your Spa Appointment</h2>
+<form action="https://formspree.io/f/xeerlkow" method="POST">
+<input type="hidden" name="form_type" value="Spa Booking">
+<input type="text" name="name" placeholder="Full Name" required>
+<input type="email" name="email" placeholder="Email Address" required>
+<input type="tel" name="phone" placeholder="Phone Number" required>
+<label>Select Appointment Date</label>
+<input type="date" name="date" required>
+
+<select name="service">
+<option>Select Massage</option>
+<option>Swedish Massage</option>
+<option>Deep Tissue Massage</option>
+<option>Hot Stone Massage</option>
+<option>Thai Massage</option>
+<option>Reflexology</option>
+</select>
+
+<textarea name="message" placeholder="Additional Notes"></textarea>
+
+<button type="submit" class="btn">Book Spa</button>
+</form>
+</section>
+
+<section id="callback" class="callback">
+<h2>Request a Callback</h2>
+<form action="https://formspree.io/f/xeerlkow" method="POST">
+<input type="hidden" name="form_type" value="Callback Request">
+<input type="text" name="name" placeholder="Your Name" required>
+<input type="tel" name="phone" placeholder="Phone Number" required>
+<input type="time" name="preferred_time">
+<button type="submit" class="btn">Request Callback</button>
+</form>
+</section>
+
+<section id="contact" class="contact">
+<h2>Contact Us</h2>
+<form action="https://formspree.io/f/xeerlkow" method="POST">
+<input type="hidden" name="form_type" value="Contact Form">
+<input type="text" name="name" placeholder="Name" required>
+<input type="email" name="email" placeholder="Email" required>
+<textarea name="message" placeholder="Your message"></textarea>
+<button type="submit" class="btn">Send Message</button>
+</form>
+</section>
+
+<footer>
+<p>© 2026 Zen Spa. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
